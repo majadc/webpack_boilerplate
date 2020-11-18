@@ -1,0 +1,27 @@
+{
+  "name": "webpack_boilerplate",
+  "version": "1.0.0",
+  "description": "webpack boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --config webpack.dev.config.js",
+    "prod": "webpack --config webpack.prod.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/majadc/webpack_boilerplate.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "majadc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/majadc/webpack_boilerplate/issues"
+  },
+  "homepage": "https://github.com/majadc/webpack_boilerplate#readme",
+  "devDependencies": {
+    "webpack": "^5.5.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
