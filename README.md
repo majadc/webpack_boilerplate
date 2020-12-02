@@ -1,4 +1,4 @@
-# Basics Webpack Boilerplate
+# Basic Webpack Boilerplate
 
 [Webpack](https://webpack.js.org/)
 
