@@ -1,1 +1,10 @@
-console.log("index.js"),console.log("test"),console.log("test2"),console.log("test3"),console.log(2);
+/******/ (() => { // webpackBootstrap
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements:  */
+console.log("index.js");
+/******/ })()
+;
+//# sourceMappingURL=main.scripts.js.map

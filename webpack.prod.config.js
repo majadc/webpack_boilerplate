@@ -1,27 +1,6 @@
-const path = require("path");
+const { merge } = require("webpack-merge");
+const common = require("./webpack.common.config.js");
 
-module.exports = {
-  entry: {
-    main: "./src/index.js",
-  },
-  output: {
-    filename: "[name].scripts.js",
-    path: path.resolve(__dirname, "./dist/js"),
-    publicPath: "",
-  },
+module.exports = merge(common, {
   mode: "production",
-  module: {
-    rules: [
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        use: {
-          loader: "babel-loader",
-          options: {
-            presets: ["@babel/env"],
-          },
-        },
-      },
-    ],
-  },
-};
+});
